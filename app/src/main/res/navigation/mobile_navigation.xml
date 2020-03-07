@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/navigation_text_speak"
         android:name="com.vickikbt.convas.ui.home.HomeFragment"
-        android:label="Text/Speak"
+        android:label="@string/text_speak"
         tools:layout="@layout/fragment_text_speak" />
 
     <fragment
         android:id="@+id/navigation_capture"
         android:name="com.vickikbt.convas.ui.dashboard.DashboardFragment"
-        android:label="Capture"
+        android:label="@string/capture"
         tools:layout="@layout/fragment_capture" />
 
     <fragment
         android:id="@+id/navigation_learn"
         android:name="com.vickikbt.convas.ui.notifications.NotificationsFragment"
-        android:label="Learn"
+        android:label="@string/learn"
         tools:layout="@layout/fragment_learn" />
 </navigation>
